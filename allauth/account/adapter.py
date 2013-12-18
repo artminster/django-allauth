@@ -4,7 +4,7 @@ from django.contrib.sites.models import Site
 from django.core.mail import send_mail
 
 from allauth.utils import import_attribute
-from rawjam.core.utils.comms import send_templated_email
+from artminster.core.utils.comms import send_templated_email
 
 import app_settings
 
